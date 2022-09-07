@@ -1,0 +1,48 @@
+.blogsection{
+  padding: 50px 15px 10px 15px;
+}
+
+
+.blogsection H1
+{
+  margin: 21px 0 40px 0;
+  font-weight: 300 !important;
+    line-height: 40px;
+    font-family: "Frank Ruhl Libre", serif;
+font-size: 30px;
+}
+.blogsection H1 span
+{
+  color: #ff4181;
+    font-weight: 700;
+}
+
+.blogsection .blog-wrapper-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.blogsection .blog-wrapper-container >div{
+  flex:1;
+  margin:25px;
+}
+@media(min-width:768px)
+{
+  .blogsection .title{
+    margin-left:100px;
+  }
+  .blogsection H1{
+    margin-left:100px;
+  }
+  
+}
+@media(min-width:1200px)
+{
+   .blogsection .title{
+    margin-left:20px;
+  }
+  .blogsection H1{
+    margin-left:20px;
+  }
+}

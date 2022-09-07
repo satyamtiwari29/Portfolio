@@ -1,0 +1,106 @@
+.servicesection {
+  padding: 50px 15px;
+  background-image:url('https://demos.codexcoder.com/labartisan/html/maxino/assets/images/service/bg.png');
+
+}
+
+.servicesection H1 {
+  margin: 25px 0 35px 0;
+  font-weight: 300 !important;
+  line-height: 40px;
+  font-family: "Frank Ruhl Libre", serif;
+}
+.servicesection H1 span {
+  color: #ff4181;
+}
+
+.servicewrapper1 {
+  background-image: linear-gradient(#8af5d1, #00a9ce);
+  margin-bottom: 25px;
+ 
+}
+.servicewrapper2 {
+  background-image: linear-gradient(#ff5b8a, #645cff);
+  margin-bottom: 25px;
+}
+.servicewrapper3 {
+  background-image: linear-gradient(#ff5b8a, #645cff);
+  margin-bottom: 25px;
+}
+
+.servicewrapper4 {
+  background-image: linear-gradient(rgb(244, 214, 61), rgb(129, 220, 253));
+  margin-bottom: 25px;
+}
+@media(min-width:768px)
+{
+  .servicewrapper {
+    display: flex;
+     width:570px;
+    height:281px;
+    margin: 0 10px 10px 0;
+  }
+  .servicesection .title{
+    margin-left:100px;
+
+  }
+  .servicesection h1{
+     margin-left:100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .servicesection {
+    padding: 90px 40px;
+    background-image: url('	https://demos.codexcoder.com/labartisan/html/maxino/assets/images/service/bg.png');
+  }
+  .servicesection .title{
+    margin-left:20px;
+
+  }
+  .servicesection h1 {
+    font-size: 36px;
+    margin-left:20px;
+  }
+  .servicesection h1 span {
+    font-weight: 700;
+  }
+  .servicewrapper {
+    display: flex;
+     width:570px;
+    height:281px;
+    margin: 0 10px 10px 0;
+  }
+  .servicewrapper1
+  {
+    background-image:url('https://demos.codexcoder.com/labartisan/html/maxino/assets/images/service/service-bg.png');
+    color:black;
+  }
+  .servicewrapper2
+  {
+    background-image:url('https://demos.codexcoder.com/labartisan/html/maxino/assets/images/service/service-bg.png');
+    color:black;
+  }
+  .servicewrapper3
+  {
+    background-image:url('https://demos.codexcoder.com/labartisan/html/maxino/assets/images/service/service-bg.png');
+    color:black;
+  }
+  .servicewrapper4
+  {
+    background-image:url('https://demos.codexcoder.com/labartisan/html/maxino/assets/images/service/service-bg.png');
+    color:black;
+  }
+  .servicewrapperdivdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .servicewrapperdiv1,
+  .servicewrapperdiv2
+  {
+    display:flex;
+  }
+  
+}

@@ -1,0 +1,56 @@
+.Pricingsection
+{
+  padding:60px 15px;
+}
+.Pricingsection H1
+{
+margin: 30px 0 50px 0;
+font-weight: 300 !important;
+    line-height: 40px;
+    font-family: "Frank Ruhl Libre", serif;
+}
+.Pricingsection H1 span
+{
+  color: #ff4181;
+    font-weight: 700;
+}
+@media(min-width:768px)
+{
+  .Pricingsection .title{
+    margin-left:100px;
+  }
+  .Pricingsection h1{
+     margin-left:100px;
+  
+  }
+  .pricingwrappercontainer
+  {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  .pricingwrappercontainer .pricingdiv2
+  {
+    margin-left: 25px;
+  }
+  .pricingwrappercontainer .pricingdiv3
+  {
+    margin-top:25px;
+  }
+}
+  @media(min-width: 1045px){
+   .pricingwrappercontainer .pricingdiv3
+    {
+      
+      margin: -2px 0 0 25px;
+    }
+     .Pricingsection .title{
+    margin-left:20px;
+  }
+  .Pricingsection h1{
+     margin-left:20px;
+  
+  }
+
+  }
+

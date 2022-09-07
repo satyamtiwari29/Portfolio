@@ -1,0 +1,67 @@
+.Resumesection
+{
+  padding: 0 15px;
+}
+.Resumesection h1
+{
+  padding: 29px 0 55px 0;
+  font-weight: 300 !important;
+    line-height: 40px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 30px;
+
+}
+.Resumesection h1 span{
+  color: #ff4181;
+    font-weight: 700;
+}
+.resumebutton
+{
+  margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+.wrapperbutton
+{
+text-align:center;
+}
+@media(min-width:768px){
+  .Resumesection .title{
+    margin-left:100px;
+  }
+  .Resumesection h1{
+    margin-left:100px;
+
+  }
+}
+
+@media(min-width:1200px)
+{
+  .Resumesection 
+  {
+    padding: 75px 50px;
+  }
+  .Resumesection .title{
+    margin-left:20px;
+  }
+.Resumesection h1{
+  font-size:36px;
+    margin-left:20px;
+ 
+}
+
+.Resumesection h1 span
+{
+ color: #ff4181;
+ font-weight: 700;
+}
+.resumebuttondiv
+{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.wrapperbutton  .resumewrappercontainer111{
+  display:flex;
+}
+}

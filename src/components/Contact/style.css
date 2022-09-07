@@ -1,0 +1,105 @@
+.footer
+{
+ background-image: linear-gradient(to right, rgb(225, 83, 119), rgb(254, 214, 67));
+ padding: 80px 20px;
+ text-align:center;
+}
+.contactsection{
+padding: 55px 0 0 0;
+}
+.contactcontactme
+{
+  padding:50px 16px;
+}
+  
+.contactsection h1{
+  margin: 35px 0 70px 0;
+  font-weight: 300 !important;
+    line-height: 40px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 30px;
+}
+.contactsection h1 span{
+  color: #ff4181;
+    font-weight: 700;
+}
+.contactsection .contactcontactcard {
+  margin-bottom: 40px;
+}
+.contactsection input{
+  width: 100%;
+    height: 55px;
+    font-size: 17px
+}
+.contactsection .footer p{
+  font-family: "Roboto", sans-serif;
+    line-height: 26px;
+    color: #fff;
+    margin: 15px 0 10px 0;
+}
+.contactsection .contacticon span{
+  margin-right: 10px;
+  color: white;
+}
+.contactprimarybutton .primaryButton
+{
+  display: flex;
+    align-items: center;
+}
+@media(min-width:768px)
+{
+  .contactsection .title{
+    margin-left:100px;
+  }
+  .contactsection h1{
+    margin-left:100px;
+  }
+ .contactcarddivwrapper {
+    display: flex;
+    justify-content: space-evenly;
+  } 
+  .contactsection input{
+    width: 300px;
+    height: 48px;
+  }
+  .contactsection .form{
+    position:relative;
+  }
+  .contactsection .input4
+  {
+  position: absolute;
+    right: 7%;
+    top: 2px;
+  }
+  .contactsection .contactprimarybutton{
+    position:relative;
+  }
+ .contactprimarybutton .primaryButton{
+    position: absolute;
+    right: 19%;
+    top: -157px;
+  }
+}
+@media(min-width:1200px){
+  .contactsection{
+    display:block;
+    
+  }
+  .contactsection .title{
+margin-left:20px;
+  }
+  .contactsection h1{
+    margin-left:20px;
+  }
+  .contactsection input{
+    width:450px;
+    height:48px;
+  }
+  .contactprimarybutton{
+    position:relative;
+  }
+ .contactsection .primaryButton{
+    position: absolute;
+    right: 27%;
+  }
+}
